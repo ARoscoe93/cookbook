@@ -1,21 +1,35 @@
-body{
-    font-family: Verdana;
-    color : cornsilk;
-    background-image: url(images/background.jpg);
-    background-size: cover;
-  }
-  
-  a {
-    color : cornsilk;
-  }
+body {
+  font-family: Verdana;
+  color: cornsilk;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+}
 
-  img{
-    width: 40%;
-    border-radius: 10%;
-    box-shadow: 3px 3px 5px gray;
-  }
-  
-  li{
-    padding: 5px;
-  }
-  
+
+img {
+  width: 40%;
+  border-radius: 10%;
+  box-shadow: 3px 3px 5px gray;
+}
+
+li {
+  padding: 5px;
+}
+
+.back-button {
+  background-color: cornsilk;
+  color: darkslategray;
+  border: 2px solid darkslategray;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.back-button:hover {
+  background-color: darkslategray;
+  color: cornsilk;
+  border: 2px solid cornsilk;
+}
