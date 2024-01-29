@@ -23,7 +23,7 @@ body{
     transition: background-color 0.3s, color 0.3s, border 0.3s; /* Add a smooth transition effect */
 }
 
-.recipe:hover {
+  .recipe:hover {
     background-color: darkslategray;
     color: cornsilk;
     border: 2px solid cornsilk;
