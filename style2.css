@@ -1,9 +1,14 @@
 body{
     font-family: Verdana;
-    color : darkslategray;
-    background-color : papayawhip;
+    color : cornsilk;
+    background-image: url(images/background.jpg);
+    background-size: cover;
   }
   
+  a {
+    color : cornsilk;
+  }
+
   img{
     width: 40%;
     border-radius: 10%;

@@ -1,6 +1,14 @@
 body{
     font-family: Verdana;
     text-align: center;
+    color : cornsilk;
+    font-size: large;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+  }
+
+  a {
+    color : cornsilk;
   }
   
   div{
